@@ -1,6 +1,6 @@
 import React from "react";
 import alimentacao from "../assets/images/restaurant.png";
-import outros from "../assets/images/other-2.png";
+import outros from "../assets/images/others.png";
 import saude from "../assets/images/healthcare.png";
 import transporte from "../assets/images/transportation.png";
 import utilidades from "../assets/images/utilities.png";

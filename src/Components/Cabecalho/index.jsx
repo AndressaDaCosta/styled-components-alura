@@ -25,8 +25,8 @@ const StyledCabecalho = styled.nav`
 `;
 
 const Logo = styled.img`
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 `;
 
 const Cabecalho = () => {

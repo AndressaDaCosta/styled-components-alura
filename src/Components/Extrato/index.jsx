@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Botao } from '../../Components/UI';
 import { extratoLista } from '../../info';
 import Items from '../Items';
+import plus from '../../assets/images/other-2.png';
 
 const Extrato = () => {
 	return (
@@ -17,7 +18,7 @@ const Extrato = () => {
 					/>
 				);
 			})}
-			<Botao>Ver Mais</Botao>
+			<Botao>Ver Mais </Botao>
 		</Box>
 	);
 };

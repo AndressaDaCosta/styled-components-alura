@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
 export const Icone = styled.img`
-  height: 25px;
-  width: 25px;
+  height: 45px;
+  width: 45px;
 `;
 
 export const IconeTema = styled(Icone)`
   filter: ${({ theme }) => theme.filter};
+`;
+
+export const IconeOnOff = styled.img`
+  margin-top: -2vh;
+  height: 40px;
+  width: 40px;
 `;
 
 export const Box = styled.div`
@@ -24,6 +30,12 @@ export const Box = styled.div`
     margin: 5px;
   }
 `;
+
+
+// export const BoxTema = styled(Box)`
+//  filter: ${({ theme }) => theme.filter};
+// `;
+
 
 export const Botao = styled.button`
   margin: 15px auto 0px auto;

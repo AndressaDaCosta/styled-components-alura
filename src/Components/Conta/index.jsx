@@ -15,6 +15,8 @@ import {
 } from "../../Components/UI";
 
 const IconeMargin = styled(Icone)`
+  width: 25px;
+  height: 25px;
   margin-top: 2px;
 `;
 
