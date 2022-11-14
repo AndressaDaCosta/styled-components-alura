@@ -1,9 +1,9 @@
 import React from "react";
-import alimentacao from "../assets/images/alimentacao.svg";
-import outros from "../assets/images/outros.svg";
-import saude from "../assets/images/saude.svg";
-import transporte from "../assets/images/transporte.svg";
-import utilidades from "../assets/images/utilidades.svg";
+import alimentacao from "../assets/images/restaurant.png";
+import outros from "../assets/images/other-2.png";
+import saude from "../assets/images/healthcare.png";
+import transporte from "../assets/images/transportation.png";
+import utilidades from "../assets/images/utilities.png";
 import { IconeTema } from "../Components/UI";
 
 export default (type) => {

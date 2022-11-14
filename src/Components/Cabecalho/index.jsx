@@ -1,5 +1,5 @@
 import React from 'react';
-import bank_logo from '../../assets/images/bank_logo.svg';
+import bank_logo from '../../assets/images/bank.png';
 import styled from 'styled-components';
 import { corPrimaria } from '../UI/variaveis';
 
@@ -34,6 +34,7 @@ const Cabecalho = () => {
 		<StyledCabecalho>
 			<Logo
 				src={bank_logo}
+        width={50}
 				alt="Logo Smart Bank"
 			/>
 			<div>
